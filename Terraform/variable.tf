@@ -39,7 +39,7 @@ variable "create_instance" {
   default = true
 }
 
-variable "ssh_kev" {
+variable "ssh_key" {
   type = string
   default = "tp_dev_ynov"
 }
